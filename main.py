@@ -3,17 +3,17 @@
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 import requests
-import json
-import urllib
-import pprint
+
+
+
 from datetime import date
-from operator import itemgetter
+
 import time
-import pprint
+
 import pandas as pd
 from tqdm import tqdm
 from flask import request
-import keyboard
+
 
 
 def teams_info(auth):
@@ -311,8 +311,8 @@ def create_excel(All_members, auth):
 def main():
     # Use a breakpoint in the code line below to debug your script.
     #print(f'Hi')  # Press ⌘F8 to toggle the breakpoint.
-    print('closing server')
-    keyboard.send('ctrl+c')
+    print('starting server')
+    #keyboard.send('ctrl+c')
 
     auth = {
         'Authorization': 'Bearer sPsT4LxSYJzq7Rmxi6fyx1eN80XyBX9CrQMzHPYOkQZh0vptJ9otIJef011gB9fL'
