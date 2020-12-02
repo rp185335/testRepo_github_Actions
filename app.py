@@ -9,16 +9,10 @@ from threading import Timer
 app = Flask(__name__)
 
 
-#main()
-
-
-
 @app.route('/')
 def dummy():
+    main()
     return "Processing Request",200
 
-
-if __name__ == '__main__':
-    main()
 
 
