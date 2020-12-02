@@ -2,3 +2,4 @@ flask
 tqdm
 requests
 pandas
+openpyxl
