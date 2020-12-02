@@ -9,7 +9,7 @@ from threading import Timer
 app = Flask(__name__)
 
 
-main()
+#main()
 
 
 
@@ -17,5 +17,8 @@ main()
 def dummy():
     return "Processing Request",200
 
+
+if __name__ == '__main__':
+    main()
 
 

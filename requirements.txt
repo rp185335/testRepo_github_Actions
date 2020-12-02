@@ -1,5 +1,4 @@
 flask
-Requests
 tqdm
+requests
 pandas
-
